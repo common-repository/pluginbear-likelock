@@ -1,0 +1,28 @@
+.likelock { position:relative; }
+	.likelock_container { position:absolute;width:100%;height:100%;font-weight:bold;text-align:center; }
+		.likelock_text { position:absolute;width:100%; }
+			.likelock_fb { width:44px;height:20px;margin:0px auto;overflow:hidden; }
+	.likelock_content { display:block;padding:5px; }
+
+#pluginbear_container { width:960px; }
+#likelock_message { margin:0px; }
+#likelock_demo { width:500px; }
+#likelock_slider { width:200px; }
+#likelock_update { }
+	#likelock_update dl { }
+		#likelock_update dt { width:130px;float:left;clear:left; }
+			#likelock_update dt label { }
+		#likelock_update dd { float:left; }
+			#likelock_update dd input { }
+			#likelock_update dd #like_text { width:328px; }
+			#likelock_update dd #opacity { width:40px;text-align:center; }
+			#likelock_update dd #likelock_slider { float:left;margin:7px 10px 0px 0px; }
+#shortcode_snippet { font-family:"Courier New", Courier, monospace; }
+#content_container { float:left;width:530px; }
+#donations_container { float:right;width:300px;text-align:center;margin:20px 0px 0px 75px;background:#f8f8f8;border:1px solid #ddd;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;padding:0px 15px 15px; }
+	#donations_container p { text-align:left; }
+
+
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
